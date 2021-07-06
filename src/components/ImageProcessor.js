@@ -15,10 +15,11 @@ const ImageProcessor = () => {
 
   return (
     <div className="ui centered card">
+      <h1 className="content">Step 1:</h1>
       <div className="content">
         <label htmlFor="file-upload">Upload File of Images</label>
         <input
-          className="upload"
+          className="ui left icon input loading"
           id="file-upload"
           type="file"
           webkitdirectory="true"
