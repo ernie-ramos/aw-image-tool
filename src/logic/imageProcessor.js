@@ -14,7 +14,7 @@ export const imageProcessor = (files) => {
   const finalImgArr = [];
 
   //get 1 random index, 20 times
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 30; i++) {
     const index = getRandomInt(0, filteredImgArr.length); // mini = inclusive, max = exclusive
     finalImgArr.push(filteredImgArr[index]);
   }
