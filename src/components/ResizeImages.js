@@ -10,13 +10,13 @@ const ImageProcessor = () => {
           can resize each image to specific dimensions.
         </p>
 
-        <button
+        <a
           href="https://sproutsocial.com/landscape/"
           target="_blank"
           className="ui primary button"
         >
           Sprout Social Landscape
-        </button>
+        </a>
       </div>
     </div>
   );
