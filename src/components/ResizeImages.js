@@ -14,6 +14,7 @@ const ImageProcessor = () => {
           href="https://sproutsocial.com/landscape/"
           target="_blank"
           className="ui primary button"
+          rel="noreferrer"
         >
           Sprout Social Landscape
         </a>
